@@ -10,15 +10,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .Question {
   text-align: left;
 }
 
 .Choices {
   text-align: left;
+  font-size: 0.8em;
+}
+
+.DbList {
+  text-align: left;
+}
+
+.DbLink {
+  color: #61dafb;
   font-size: 0.8em;
 }

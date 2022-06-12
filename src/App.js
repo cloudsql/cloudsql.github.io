@@ -6,7 +6,7 @@ function ShowDbList(props) {
   const dbs = props.dbList;
   const listDbs = dbs.map((db) =>
     <li id={db.id} key={db.id}>
-      <a href={db.url}>{db.title}</a>
+      <a class="DbLink" href={db.url}>{db.title}</a>
     </li>
   );
   return (
